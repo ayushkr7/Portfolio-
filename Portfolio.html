@@ -3,47 +3,56 @@
     <head>
         <title>My Portfolio</title>
         <link rel="stylesheet" href="Portfolio.css" type="text/css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" >
     </head>
 
     <body>
        
         <nav id="navbar">
             <ul>
-                <a href="#Connect"><li>Connect</li></a>
+                <a href="#connect"><li>Connect</li></a>
                 <a href="#projects"><li>Work</li></a>
                 <a href="#welcome-section"><li>About</li></a>
             </ul>
         </nav>
        
         <section id="welcome-section">
-            <h1>Hi, I'm Ayush <br>A Programmer + Web developer</h1>
+            <h1 >Hi, I'm Ayush <br>A Programmer + Web developer</h1>
         </section>
         <section id="projects">
             <h2 id="project-section-header"><u>Few Projects by me</u> </h2>
-            <div>
+            <div id="projects-links">
               <a href="https://codepen.io/ayushkr07/pen/zYrBYNX" class="project-tile">
                 <img src="https://imgur.com/qAXYRKC.jpg" alt="Tribute Project">
-                <span class="code"><</span>
-                <p class="project-title">Tribute Page</p> 
-                <span>/></span>
+                <p class="project-title">
+                    <span class="code"><</span>
+                    Tribute Page 
+                    <span>/></span>
+                </p>
               </a>
-              <a href="https://codepen.io/ayushkr07/pen/ZEQpwJp">
+              <a href="https://codepen.io/ayushkr07/pen/ZEQpwJp" class="project-tile">
               <img src="https://imgur.com/OMYnpYV.jpg" alt="Product Landing Page">
-              <span class="code"><</span>
-              <p class="project-title">Product Landing Page</p>
-              <span class="code">/></span>
+              <p class="project-title">
+                  <span class="code"><</span>
+                  Product Landing Page
+                  <span class="code">/></span>
+              </p>
               </a>
-              <a href="https://codepen.io/ayushkr07/pen/KKVMBLr">
+              <a href="https://codepen.io/ayushkr07/pen/KKVMBLr" class="project-tile">
               <img src="https://imgur.com/wQRjfde.jpg" alt="Survey Form">
-              <span class="code"><</span>
-              <p class="project-title">Survey Form</p>
-              <span class="code">/></span>
+              <p class="project-title">
+                  <span class="code"><</span>
+                  Survey Form
+                  <span class="code">/></span>
+              </p>
               </a>
-              <a href="https://codepen.io/ayushkr07/pen/QWyGEMv">
+              <a href="https://codepen.io/ayushkr07/pen/QWyGEMv" class="project-tile">
               <img src="https://imgur.com/SpQfrlf.jpg" alt="C Documentation">
-              <span class="code"><</span>
-              <p class="project-title">C Documentation</p>
-              <span class="code">/></span>
+              <p class="project-title">
+                  <span class="code"><</span>
+                  C Documentation
+                  <span class="code">/></span>
+                </p>
               </a>
         </div>
 
@@ -51,8 +60,14 @@
        <!--<nav id="navbar">
             <a href="https://codepen.io/dashboard/">See More</a>
         </nav>-->
-        <div id="connect">
-            <a href="https://github.com/ayushkr7" id="profile-link"></a>
+        <div  id="connect">
+            <p id="lets-connect">Let's Connect</p>
+            
+            <a href="https://github.com/ayushkr7" id="profile-link"  target="_blank"><i class="fa fa-github" aria-hidden="true"></i>&nbspGitHub</a>
+          
+            <a href="https://twitter.com/ayushkr07" id="profile-link" target="_blank"> <i class="fa fa-twitter" aria-hidden="true"> </i>&nbspTwitter</a>
+           
+            <a href="https://www.linkedin.com/in/ayush-kumar-235966170" id="profile-link" target="_blank"> <i class="fa fa-linkedin" aria-hidden="true"></i>&nbspLinked In</a>
 
         </div>
     </body>

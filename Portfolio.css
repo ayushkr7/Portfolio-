@@ -65,10 +65,102 @@ a
 
 
 
+
+
+#projects{
+    text-align: center;
+    padding: 10rem 2rem;
+    background: #ed553b;
+}
+
+#project-section-header
+{
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+#projects img
+{
+    width: 700px;
+    height: 400px;
+   
+}
+
+.project-tile
+{
+    padding-bottom: 25px;
+    margin-bottom: 20px;
+    background: #900c3f;
+}
+
+p {
+    display: block;
+    margin-bottom: 30px;
+    color: #fff;
+   /* margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;*/
+}
+
+#profile-link {
+    font-size: 30px;
+    margin: 50px;
+    text-align: center;
+    color: white;
+}
+
+#connect
+{
+    padding: 40px;
+    text-align: center;
+    background: #581845;
+}
+
+#connect p
+{
+
+    font-size: 40px;
+}
+
+#lets-connect
+{
+    text-align: center;
+}
+
 @media(max-width:700px)
 {
-    #welcome-section{
+    #welcome-section
+   {
         font-size: 18px;
+       
+        
     }
     
+  nav ul li
+  {
+     margin-right:30px;
+  }
+  
+  #projects img
+ {
+    width: 300px;
+    height: 150px;
+   
+ }
+  
+  #connect p
+ {
+
+    font-size: 30px;
+ }
+  
+  #profile-link 
+  {
+    font-size: 20px;
+    margin-bottom:15px;
+    padding: 10px 0 10px 0px;
+    margin:18px;
+  }  
 }
